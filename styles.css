@@ -148,7 +148,8 @@ body {
     font-weight: 600;
     text-align: center;
     color:#244552 ;
-    font-size: 3rem;  
+    font-size: 3rem; 
+    margin-bottom:0;
   }
   
   .contact-section-header p {
