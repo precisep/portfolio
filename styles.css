@@ -286,6 +286,25 @@ footer > p {
   .contact-section-header p {
     font-size: 9px;
   }
+  .contact-links a {
+    font-size: 12px; /* Adjust the font size as needed */
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add these styles to make them smaller and fit in one line */
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contact-links {
+    flex-direction: row; /* Keep them in one line */
+    align-items: center;
+    margin-top: 10px; /* Adjust as needed */
+  }
  
   
 #footer-container {
@@ -295,7 +314,7 @@ footer > p {
 footer {
   font-weight: 300;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: normal;
   padding: 1rem;
   background: #033448;
   color: white;
