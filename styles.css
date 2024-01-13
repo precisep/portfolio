@@ -181,7 +181,7 @@ body {
     color: white;
     text-align: center;
     padding: 20px;
-    position: fixed; /* Change this from 'relative' to 'fixed' */
+    position: relative; /* Change this from 'relative' to 'fixed' */
     bottom: 0; /* Keep the footer fixed at the bottom */
     width: 100%;
   }
