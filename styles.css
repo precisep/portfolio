@@ -181,7 +181,7 @@ body {
     color: white;
     text-align: center;
     padding: 6px;
-    position: bottom;
+    position: absolute;
     bottom: 0;
     width: 100%;
   }
@@ -228,11 +228,7 @@ body {
   .contact-section-header p {
     font-size: 9px;
   }
-  footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
+ 
 }
 
 
