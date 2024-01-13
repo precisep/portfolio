@@ -87,7 +87,7 @@ body {
       border-bottom: 0.05rem solid white;
       max-width: 640px;
       padding: 3px;
-      font-size: 32;   
+      font-size: 32px;   
   }
   .grid {
     display: grid;
@@ -127,7 +127,7 @@ body {
     font-weight: bold;
     padding: 10px;
     background:linear-gradient(to bottom , #f62265 15%,#244552); 
-    width: 100%;
+    width: 95%;
   }
   .tile {
     text-decoration: none;
@@ -144,13 +144,11 @@ body {
   
   #contact h2 {
     margin-top:32px;
-    margin-bottom:12;
     font-family: Raleway, sans-serif;
     font-weight: 600;
     text-align: center;
     color:#244552 ;
-    font-size: 3rem;
-    
+    font-size: 3rem;  
   }
   
   .contact-section-header p {
@@ -231,7 +229,7 @@ footer > p {
 
     .tile p {
         margin-bottom: 10px; 
-        with:100%;
+        with:75%;
     }
 
     #contact h2 {
