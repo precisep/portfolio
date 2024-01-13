@@ -264,7 +264,7 @@ footer > p {
     max-width:75%;
   }
     #projects h1 {
-        margin-top:60px;
+        margin-top:30px;
         font-size: 24px; 
     }
 
@@ -287,23 +287,22 @@ footer > p {
     font-size: 9px;
   }
   .contact-links a {
-    font-size: 12px; /* Adjust the font size as needed */
+    font-size: 9px;
     color: white;
     text-decoration: none;
   }
   
-  /* Add these styles to make them smaller and fit in one line */
   .contact-links {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .contact-links {
-    flex-direction: row; /* Keep them in one line */
+    flex-direction: row; 
     align-items: center;
-    margin-top: 10px; /* Adjust as needed */
+    margin-top: 5px; 
   }
  
   
