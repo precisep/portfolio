@@ -190,7 +190,7 @@ body {
     background: #033448;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 6px;
     position: auto;
     bottom: 0;
     width: 100%;
@@ -212,19 +212,19 @@ body {
     }
 
     #welcome-section h1 {
-        font-size: 32px; 
+        font-size: 16px; 
     }
 
     #projects h1 {
-        font-size: 24px; 
+        font-size: 12px; 
     }
 
     .project-image {
-        max-height: none; 
+        max-height: auto; 
     }
 
     .tile p {
-        margin-bottom: 20px; 
+        margin-bottom: 10px; 
     }
 }
 
