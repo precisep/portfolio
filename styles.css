@@ -70,7 +70,24 @@ body {
   #welcome-section p {
     margin: 10px 0;
   }
-  
+
+  @keyframes wave {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}  
   #projects {
     background: #033448;
     display: flex;
@@ -157,6 +174,15 @@ body {
   color: #ec4176;
   font-size: 18px;
 }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
   
   .contact-links {
     display: flex;
@@ -166,7 +192,17 @@ body {
     margin-top: 20px;
     margin-botto:10px;
   }
-  
+
+   .wave {
+  display: inline-block;
+  animation: wave 2s infinite;
+}
+
+  .rotate {
+  display: inline-block;
+  animation: rotate 4s infinite linear;
+}
+
   .btn {
     text-decoration: none;
     color: white;
