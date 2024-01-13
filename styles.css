@@ -86,7 +86,8 @@ body {
   .wave {
     display: inline-block;
     animation: wave 0.5s infinite;
-    animation-delay: 10s;
+    animation-delay: 100s;
+    transform-origin: bottom;
   }
   
   @keyframes pause {
