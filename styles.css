@@ -178,14 +178,10 @@ body {
     background-color: #ec4176;
   }
  footer {
-    position: fixed;
-    bottom: 0;
-    background: #033448;
-    color: white;
-    text-align: center;
-    padding: 6px;
-    width: 100%;
-    z-index: -1; /* Adjust the z-index as needed */
+   font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
 }
 
   
