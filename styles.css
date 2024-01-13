@@ -177,15 +177,17 @@ body {
   .btn:hover {
     background-color: #ec4176;
   }
- 
-  footer {
+ footer {
+    position: fixed;
+    bottom: 0;
     background: #033448;
     color: white;
     text-align: center;
     padding: 6px;
-    margin-top: auto;
     width: 100%;
-  }
+    z-index: 2; /* Adjust the z-index as needed */
+}
+
   
  @media screen and (max-width: 600px) {
     #navbar {
