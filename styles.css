@@ -175,16 +175,7 @@ body {
   .btn:hover {
     background-color: #ec4176;
   }
-  footer {
-    background: #033448;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: relative; /* Change this from 'relative' to 'fixed' */
-    bottom: 0; /* Keep the footer fixed at the bottom */
-    width: 100%;
-  }
-  
+ 
   footer {
     background: #033448;
     color: white;
@@ -218,7 +209,7 @@ body {
     font-size: 12px;
   }
     #projects h1 {
-        font-size: 12px; 
+        font-size: 24px; 
     }
 
     .project-image {
@@ -229,7 +220,7 @@ body {
         margin-bottom: 10px; 
     }
 
-      #contact h2 {
+    #contact h2 {
     font-size: 1.5rem;
     
   }
