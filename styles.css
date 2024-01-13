@@ -86,7 +86,7 @@ body {
   .wave {
     display: inline-block;
     animation: wave 0.5s infinite;
-    animation-delay: 100s;
+    animation-delay: 5s;
     transform-origin: bottom;
   }
   
