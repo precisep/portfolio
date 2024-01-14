@@ -212,13 +212,12 @@ body {
   }
 }
 
-
-
 .rotate-clockwise {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2em;
+  font-size: 2em; 
+  margin-top: 20px; 
   animation: rotateClockwise 4s infinite linear;
 }
 
@@ -226,6 +225,7 @@ body {
   
   .rotate-clockwise {
     font-size: 1em; 
+    margin-top: 10px; 
   }
 }
 
