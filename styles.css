@@ -44,10 +44,11 @@ body {
     padding: 14px 16px;
   }
  
-.profile-link .profile-image {
-  border-radius: 50%;
-  width: 300px;
-}
+  .profile-link .profile-image {
+    border-radius: 50%;
+    width: 300px;
+    border: 5px solid #ec4176; 
+  }
 
   #welcome-section {
     background: #181719;
@@ -113,7 +114,9 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px; 
+    padding: 20px;
+    border-top: 2px solid #ec4176; 
+    border-bottom: 2px solid #ec4176; 
   }
   
   #projects h1{
@@ -255,6 +258,7 @@ body {
     background: #033448;
     color: white;
     text-align: center;
+    border-top: 2px solid #ec4176; 
 }
 footer > p {
   margin: 1rem;
@@ -273,7 +277,7 @@ footer > p {
       text-decoration: none;
       color:rgb(179, 168, 168);
       font-weight: bold;
-      font-size: 16px;
+      font-size: 12px;
       padding: 14px 16px;
     }
     .profile-link .profile-image {
