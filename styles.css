@@ -215,8 +215,18 @@ body {
 
 
 .rotate-clockwise {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
   animation: rotateClockwise 4s infinite linear;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .rotate-clockwise {
+    font-size: 1em; 
+  }
 }
 
 
