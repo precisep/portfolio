@@ -307,6 +307,7 @@ footer > p {
     .tile p {
         margin-bottom: 10px; 
         width: 70%;
+        font-size: 9px;
     }
 
     .contact-section {
@@ -314,7 +315,7 @@ footer > p {
   }
 
     #contact h2 {
-    margin-top: 35px;
+    margin-top: 40px;
     font-size: 1.5rem;
     
   }
