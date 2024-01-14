@@ -224,8 +224,8 @@ body {
 @media screen and (max-width: 600px) {
   
   .rotate-clockwise {
-    font-size: 2em; 
-    margin-top: 40px; 
+    font-size: 4em; 
+    margin-top: 100px; 
   }
 }
 
