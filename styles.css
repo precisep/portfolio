@@ -40,7 +40,7 @@ body {
     text-decoration: none;
     color:rgb(179, 168, 168);
     font-weight: bold;
-    font-size: 24px;
+    font-size: 18px;
     padding: 14px 16px;
   }
   
@@ -261,6 +261,15 @@ footer > p {
  @media screen and (max-width: 600px) {
     #navbar {
         float: none;
+        position: fixed;
+        overflow-wrap: normal;
+    }
+    #navbar a {
+      text-decoration: none;
+      color:rgb(179, 168, 168);
+      font-weight: bold;
+      font-size: 11px;
+      padding: 14px 16px;
     }
     
     .grid {
@@ -304,12 +313,12 @@ footer > p {
 
     #contact h2 {
     margin-top: 45px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     
   }
   
   .contact-section-header p {
-    font-size: 9px;
+    font-size: 12px;
   }
   .contact-links a {
     font-size: 9px;
@@ -340,6 +349,7 @@ footer {
 }
 
 footer > p {
+  font-size: 11px;
   margin: 0.5rem;
 }
 
