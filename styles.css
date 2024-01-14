@@ -314,12 +314,13 @@ footer > p {
   }
 
     #contact h2 {
+    margin-top: 20px;
     font-size: 1.5rem;
     
   }
   
   .contact-section-header p {
-    font-size: 9px;
+    font-size: 11px;
   }
   .contact-links a {
     font-size: 9px;
