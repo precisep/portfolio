@@ -43,7 +43,12 @@ body {
     font-size: 18px;
     padding: 14px 16px;
   }
-  
+ 
+.profile-link .profile-image {
+  border-radius: 50%;
+  width: 300px;
+}
+
   #welcome-section {
     background: #181719;
     height: 99vh;
@@ -271,6 +276,10 @@ footer > p {
       font-size: 16px;
       padding: 14px 16px;
     }
+    .profile-link .profile-image {
+      border-radius: 50%;
+      width: 150px;
+    }
     
     .grid {
         grid-template-columns: 1fr;
@@ -308,7 +317,8 @@ footer > p {
     }
 
     .contact-section {
-      margin-bottom: 0; 
+      margin-bottom: 0;
+
   }
 
     #contact h2 {
