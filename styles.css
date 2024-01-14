@@ -344,7 +344,6 @@ footer > p {
  
 
 footer {
-  font-weight: 300;
   display: flex;
   justify-content: center;
   background: #033448;
@@ -353,7 +352,7 @@ footer {
 }
 
 footer > p {
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 }
