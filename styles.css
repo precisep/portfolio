@@ -94,15 +94,15 @@ body {
     transform: rotate(0deg);
   }
   50% {
-    transform: rotate(14deg);
+    transform: rotate(20deg);
   }
 }
 
 .wave {
   display: inline-block;
-  animation: wave 0.5s infinite;
-  animation-delay: 5s;
+  animation: wave 6s infinite;
   transform-origin: bottom;
+  animation-iteration-count: infinite;
 }
 
 @keyframes pause {
