@@ -88,21 +88,22 @@ body {
 
 @keyframes wave {
   0%, 100% {
-    transform: rotate(20deg);
+    transform: rotate(12deg);
   }
   25%, 75% {
     transform: rotate(0deg);
   }
   50% {
-    transform: rotate(20deg);
+    transform: rotate(12deg);
   }
 }
 
 .wave {
   display: inline-block;
-  animation: wave 6s infinite;
+  animation: wave 2s infinite;
   transform-origin: bottom;
   animation-iteration-count: infinite;
+  animation-timing-function: ease;
 }
 
 @keyframes pause {
