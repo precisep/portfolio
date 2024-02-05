@@ -88,22 +88,21 @@ body {
 
 @keyframes wave {
   0%, 100% {
-    transform: rotate(12deg);
+    transform: rotate(20deg);
   }
   25%, 75% {
     transform: rotate(0deg);
   }
   50% {
-    transform: rotate(12deg);
+    transform: rotate(14deg);
   }
 }
 
 .wave {
   display: inline-block;
-  animation: wave 2s infinite;
+  animation: wave 0.5s infinite;
+  animation-delay: 5s;
   transform-origin: bottom;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
 }
 
 @keyframes pause {
@@ -239,6 +238,7 @@ font-family: Raleway;
 
 .rotate-clockwise {
 display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 font-size: 2em; 
@@ -427,6 +427,61 @@ margin-top:  0.5rem;
 
 }
 
+}
+
+
+#animate-star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+}
+
+.star {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 35px solid #fff; /* You can change the color if needed */
+  animation: starAnimation 4s ease-out infinite;
+}
+
+@keyframes starAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.star::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff; /* You can change the color if needed */
+  border-radius: 50%;
+  animation: burstAnimation 4s ease-out infinite;
+}
+
+@keyframes burstAnimation {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 
