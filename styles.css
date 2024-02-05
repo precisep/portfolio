@@ -245,6 +245,16 @@ font-size: 2em;
 margin-top: 20px; 
 animation: rotateClockwise 4s infinite linear;
 }
+#cv-download {
+  margin-top: 10px;
+}
+
+
+#cv-download:hover {
+  background-color: #ec4176;
+  transform: scale(1.1);
+}
+
 
 @media screen and (max-width: 600px) {
 
@@ -287,6 +297,12 @@ animation: rotate 4s infinite linear;
   transform: scale(1.2);
   
 }
+
+#cv-download {
+  margin-top: 90px;
+  
+}
+
 footer {
  font-weight: 300;
   display: flex;
