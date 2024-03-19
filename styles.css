@@ -186,17 +186,6 @@ body {
 }
 
 
-#projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-  border-top: 2px solid #ec4176;
-  border-bottom: 2px solid #ec4176;
-}
-
-
 #video-background {
   position: fixed;
   top: 0;
@@ -218,24 +207,6 @@ body {
   position: relative;
 }
 
-#projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-  border-top: 2px solid #ec4176;
-  border-bottom: 2px solid #ec4176;
-  position: relative;
-}
-
-#project-heading-container {
-  position: relative;
-}
-
-#project-heading-container {
-  position: relative;
-}
 
 
 .grid {
