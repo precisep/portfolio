@@ -8,6 +8,8 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
+
 #navbar {
   position: fixed;
   top: 0;
@@ -45,6 +47,8 @@ body {
 .profile-link .profile-image {
   border-radius: 50%;
   width: 300px;
+
+
 
 }
 
@@ -193,12 +197,12 @@ body {
 }
 
 #projects {
-  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: 75px;
   border-top: 2px solid #ec4176;
   border-bottom: 2px solid #ec4176;
   position: relative;
@@ -222,7 +226,7 @@ body {
   text-align: center;
   margin-bottom: 5px;
   position: relative;
-  top: 20px;
+  top: 150px;
 }
 
 
@@ -266,11 +270,11 @@ body {
 
 
 #contact {
-  height: 30vh;
+  height: 27vh;
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 20px;
+  padding: 5px;
   background: linear-gradient(35deg, #CCFFFF, #FFCCCC)
 }
 
@@ -432,6 +436,11 @@ footer>p {
     max-width: 75%;
   }
 
+  #projects {
+    height: 65vh;
+    padding: 5px;
+  }
+
   #projects h1 {
     margin-top: 40px;
     font-size: 18px;
@@ -439,13 +448,13 @@ footer>p {
 
   .project-image {
     max-height: 15vh;
-    width: 60%;
+    width: 70%;
   }
 
   .tile p {
     margin-bottom: 10px;
-    width: 90%;
-    font-size: 9px;
+    width: 91%;
+    font-size: 8px;
   }
 
   .animated-description {
@@ -474,14 +483,13 @@ footer>p {
   }
 
   #contact {
-    margin-bottom: 5px;
-    background: linear-gradient(35deg, #CCFFFF, #FFCCCC)
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
   }
 
 
   #contact h2 {
     margin-top: 16px;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 
   }
 
