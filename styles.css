@@ -8,8 +8,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
-
 #navbar {
   position: fixed;
   top: 0;
@@ -47,8 +45,6 @@ body {
 .profile-link .profile-image {
   border-radius: 50%;
   width: 300px;
-
-
 
 }
 
@@ -197,6 +193,7 @@ body {
 }
 
 #projects {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -441,13 +438,13 @@ footer>p {
   }
 
   .project-image {
-    max-height: auto;
-    width: 75%;
+    max-height: 15vh;
+    width: 60%;
   }
 
   .tile p {
     margin-bottom: 10px;
-    width: 70%;
+    width: 90%;
     font-size: 9px;
   }
 

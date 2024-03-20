@@ -12,7 +12,6 @@
       display: none;
     }
 
-    /* Adjust slide width */
     .mySlides img {
       width: 100%;
     }
@@ -39,17 +38,16 @@
   </section>
 
   <section id="projects">
-    <!-- Video Background -->
+   
     <video id="video-background" autoplay loop muted>
       <source src="images/space-anime.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
 
-    <!-- Project Slides -->
+  
     <div class="w3-content w3-display-container" style="max-width:800px">
       <div class="mySlides">
         <div class="project-tile">
-          <!-- Project 1 content -->
           <a id="profile-link" href="https://lukhanyo-day-care.streamlit.app/" target="_blank" class="tile">
             <img class="project-image" src="images/day-care.png" alt="Day Care Application Form Logo" width="420px" />
             <p>
@@ -117,13 +115,14 @@
         </div>
       </div>
 
-      <!-- Add more project slides as needed -->
+
 
     </div>
 
 
     <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
 
+    </div>
     </div>
   </section>
 
@@ -168,15 +167,12 @@
       slideIndex++;
       if (slideIndex > slides.length) { slideIndex = 1 }
       slides[slideIndex - 1].style.display = "block";
-      setTimeout(showSlides, 2000); // Change image every 2 seconds
+      setTimeout(showSlides, 2000); 
     }
 
-    // Next/previous controls
     function plusSlides(n) {
       showSlides(slideIndex += n);
     }
-
-    // Thumbnail image controls
     function currentSlide(n) {
       showSlides(slideIndex = n);
     }
