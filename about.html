@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Keyframes for rotating icons */
+        @keyframes rotate-icons {
+            0% {
+                transform: rotateY(0deg);
+                /* Rotate from 0 to 360 degrees on the Y-axis */
+            }
+
+            25% {
+                transform: rotateY(90deg);
+                /* Pause and rotate in a different direction */
+            }
+
+            50% {
+                transform: rotateY(180deg);
+                /* Pause and rotate in a different direction */
+            }
+
+            75% {
+                transform: rotateY(270deg);
+                /* Pause and rotate in a different direction */
+            }
+
+            100% {
+                transform: rotateY(360deg);
+            }
+        }
+
+        /* Define common animation for all icons */
+        .skill-icon {
+            font-size: 36px;
+            color: #ff69b4;
+            display: inline-block;
+            margin-top: 100px;
+            margin-right: 20px;
+            animation: rotate-icons 8s linear infinite;
+            position: relative-fixed;
+        }
+
+        .about-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* Center the content horizontally */
+            padding: 20px;
+            height: 100vh;
+            /* Set height to viewport height */
+            position: relative;
+        }
+
+        .about-text-container {
+            max-width: calc(100% - 40px);
+        }
+
+        .about-text {
+            margin-bottom: 20px;
+            margin-top: 100px;
+            max-width: 600px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+    <title>About Me</title>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Projects</a></li>
+            <li><a href="index.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me section -->
+    <section id="welcome-section" class="about-section">
+
+        <div class="about-text-container">
+            <p id="typing-text" class="about-text"></p>
+        </div>
+
+        <!-- Animated rotating icons representing developer skills -->
+        <div class="skill-icons">
+            <a href="https://www.python.org/" target="_blank" class="skill-icon"
+                title="Python - Learn more about Python programming language"><i class="fab fa-python"></i></a>
+            <a href="https://www.chartjs.org/" target="_blank" class="skill-icon"
+                title="Data Visualization - Explore data visualization techniques"><i class="fas fa-chart-line"></i></a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank" class="skill-icon"
+                title="HTML5 - Dive into HTML5 for web development"><i class="fab fa-html5"></i></a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="skill-icon"
+                title="CSS3 - Discover CSS3 for styling web pages"><i class="fab fa-css3-alt"></i></a>
+            <a href="https://www.mysql.com/" target="_blank" class="skill-icon"
+                title="Database Management - Learn about database management"><i class="fas fa-database"></i></a>
+            <a href="https://www.w3schools.com/js/" target="_blank" class="skill-icon"
+                title="JavaScript - Explore JavaScript programming language"><i class="fas fa-code"></i></a>
+            <a href="https://www.javascript.com/" target="_blank" class="skill-icon"
+                title="Web Development - Get started with web development"><i class="fab fa-js"></i></a>
+            <a href="https://www.adobe.com/products/photoshop.html" target="_blank" class="skill-icon"
+                title="Digital Design - Learn digital design with Adobe Photoshop"><i class="fas fa-camera"></i></a>
+            <a href="https://www.nike.com/" target="_blank" class="skill-icon"
+                title="Fitness - Explore fitness activities"><i class="fas fa-running"></i></a>
+            <a href="https://open.spotify.com/" target="_blank" class="skill-icon" title="Music - Discover music"><i
+                    class="fas fa-music"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Precise. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const textElement = document.getElementById('typing-text');
+        const text = "Hey there! I'm Thabang Mokoena, originally from a small remote community of Waterval Boven, situated in South Africa's Mpumalanga Lowveld region. My journey began with metallurgy studies at the University of Witwatersrand, where I delved deep into the science of metals. For five enriching years, I worked at Nkomati Nickel mine, where I honed my skills in data analysis and process optimization. It was there that my fascination with technology truly took root. Surrounded by vast amounts of data, I found myself drawn to Python, using it to automate mundane tasks and develop predictive models. My passion for technology led me to enroll in Umuzi to further develop my skills in machine learning and web development. Beyond my professional life, I have a keen interest in sports, particularly soccer, which I enjoy watching with friends. I also relish spending quality time with my family over dinner. In my free time, you'll often find me exploring various tech technologies and reading data science articles on Medium and Towards Data Science. DataCamp has played a significant role in my journey, providing me with hands-on experience in implementing Python for data science projects. With this diverse set of experiences and interests, I'm excited to continue my journey in the ever-evolving world of technology!";
+
+        let index = 1;
+        let typingSpeed = 66;
+        let typingTimeout;
+
+        function type() {
+            textElement.innerHTML = text.slice(0, index);
+            index++;
+            if (index <= text.length) {
+                typingTimeout = setTimeout(type, typingSpeed);
+            } else {
+
+                index = 1;
+                setTimeout(type, typingSpeed);
+            }
+        }
+
+        type();
+    </script>
+    </
