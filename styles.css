@@ -393,16 +393,6 @@ footer>p {
   margin: 1rem;
 }
 
-@media screen and (max-width: 400px) {
-  #navbar {
-    float: none;
-    position: fixed;
-    overflow-wrap: normal;
-  }
-.project-image {
-    max-height: 15vh;
-    width: 10000000px;
-  }
 
 
 @media screen and (max-width: 600px) {
@@ -457,7 +447,7 @@ footer>p {
 
   .project-image {
     max-height: 15vh;
-    width: 1000px;
+    width: 600px;
   }
  
   .tile p {
