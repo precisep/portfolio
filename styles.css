@@ -450,7 +450,9 @@ footer>p {
     max-height: 15vh;
     width: 50%;
   }
-
+  .mySlides {
+    width:50%;
+  }
   .tile p {
     margin-bottom: 10px;
     width: 91%;
